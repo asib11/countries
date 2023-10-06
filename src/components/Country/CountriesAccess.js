@@ -15,9 +15,12 @@ function CountriesAccess(){
   
     return (
       <div>
+        <h2>ok</h2>
         {console.log(countries)};
         {
-          countries.map(country => <CountriesShow name ={country.name.common} image={country.flags.png}></CountriesShow>)
+          
+          countries.map(country => <CountriesShow data = {country}></CountriesShow>)
+          // countries.map(country => <CountriesShow name ={country.name.common} image={country.flags.png}></CountriesShow>)
           //countries.map(country => console.log(country.name.common))
         }
       </div>
