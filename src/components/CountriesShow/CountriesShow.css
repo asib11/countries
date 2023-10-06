@@ -1,0 +1,10 @@
+.country{
+    background-color: cornflowerblue;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.country img{
+    width: 60%;
+}
