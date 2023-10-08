@@ -18,6 +18,7 @@ function CountriesAccess() {
       <h1>Welcome to world tour</h1>
       {console.log(countries)}
       <div className="country-container">
+        
         {
 
           countries.map(country => <CountriesShow data={country} key={country.cca3}></CountriesShow>)
